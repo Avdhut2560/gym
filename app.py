@@ -7,6 +7,7 @@ Created on Fri Jun 17 19:48:25 2022
 
 import flask 
 from flask import Flask,request,jsonify,render_template
+from collections.abc import Mapping,Iterable,MutableMapping
 import jinja2
 import pandas as pd
 import numpy as np
